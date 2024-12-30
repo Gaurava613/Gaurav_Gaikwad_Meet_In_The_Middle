@@ -1,0 +1,13 @@
+button {
+    width: 17rem;
+    padding: 10px;
+    font-size: 17px;
+    background-color: lightgreen;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  

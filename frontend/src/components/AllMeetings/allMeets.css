@@ -1,0 +1,160 @@
+/* .headerContainer{
+    display: flex;
+    background: gainsboro;
+    justify-content: space-between;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+
+.meetingCard{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 17rem;
+    padding: 15px;
+    box-shadow: 2px 2px 15px 5px #e0dfdf;
+    border-radius: 5px;
+}
+
+
+.meetingCardGoingInvidedSec{
+    display: flex;
+    color: gray;
+    font-size: 15px;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.invitedBY  ,.memberGoing{
+display: flex;
+gap: 10px;
+}
+
+.invitedByText , .membersGText{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    font-size: 9px;
+}
+
+.membersGText2, .invitedByText2{
+    font-weight: 500;
+    font-family: 1px !important;
+}
+
+
+
+.buttonsDivide{
+    color: #b3b1b1;
+    font-size: 25px;
+} */
+ .main-screen{
+    overflow: auto;
+
+ }
+.meetingsContainer {
+    padding: 20px;
+ }
+ .createMeetBtn{
+    font-size: 1.2rem;
+    color: green;
+    cursor: pointer;
+ }
+ .allMeetingsCard{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+} 
+ 
+ .meetingCard {
+    border: 1px solid #ece7e7;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 16rem;
+ }
+
+ .meetingName {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    color: #605d5d;
+
+ }
+ 
+ .meetingCardDateTime {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+ }
+ 
+ .invitedBy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+ }
+
+
+ .meetingCardDateTime{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.meetCardDate , .meetCardTime{
+    background: rgb(241, 235, 246);
+    padding: 5px 15px 5px 15px;
+    border-radius:5px;
+    border: 1px solid rgb(215, 154, 222);
+    color: rgb(82, 81, 81);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(85, 84, 84);
+    font-size: 12px;
+}
+.meetCardTime{
+    background: rgb(239, 247, 237);
+    border: 1px solid rgb(117, 207, 120);
+    width: 5rem;
+}
+.meetingCardDateTime input{
+    border-radius: 2px;
+    padding: 7px;
+    font-size: 10px ;
+}
+.durationAndCreatedBy{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.duration{
+    color: rgb(66, 66, 198);
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 12px;
+}
+ 
+ .error {
+    color: red;
+    font-weight: bold;
+ }
+ .cardBottom {
+    width: 100%;
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+   gap: 20px;
+}
+.cardBottom button{
+    font-size: 15px;
+}
